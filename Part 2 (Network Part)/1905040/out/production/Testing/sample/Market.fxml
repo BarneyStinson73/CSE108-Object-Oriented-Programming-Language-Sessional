@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Market">
+    <children>
+        <Button graphicTextGap="0.0" layoutX="236.0" layoutY="391.0" onAction="#goBack" prefHeight="29.0" prefWidth="63.0" text="Back">
+            <font>
+                <Font name="Times New Roman" size="13.0" />
+            </font>
+        </Button>
+        <TableView fx:id="playerTable" layoutX="106.0" layoutY="27.0" prefHeight="289.0" prefWidth="500.0" />
+        <Button layoutX="431.0" layoutY="391.0" onAction="#buyPlayer" prefHeight="29.0" prefWidth="63.0" text="Buy">
+            <font>
+                <Font name="Times New Roman" size="13.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

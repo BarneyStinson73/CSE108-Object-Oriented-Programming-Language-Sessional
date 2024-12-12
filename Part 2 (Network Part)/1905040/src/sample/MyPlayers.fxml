@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MyPlayers">
+    <children>
+        <Button layoutX="236.0" layoutY="391.0" onAction="#goBack" prefHeight="29.0" prefWidth="63.0" text="Back">
+            <font>
+                <Font name="Cursive" size="13.0" />
+            </font>
+        </Button>
+        <TableView fx:id="Table" layoutX="106.0" layoutY="27.0" prefHeight="289.0" prefWidth="500.0" />
+      <Button layoutX="431.0" layoutY="391.0" onAction="#sellPlayer" prefHeight="29.0" prefWidth="63.0" text="Sell">
+         <font>
+            <Font name="Cursive" size="13.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+    <children>
+        <Pane prefHeight="500.0" prefWidth="403.0" style="-fx-background-color: linear-gradient(to right, #00c9ff, #92fe9d);">
+            <children>
+                <Label layoutX="118.0" layoutY="233.0" text="Player Databse" textFill="WHITE">
+                    <font>
+                        <Font name="Comic Sans MS" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Label layoutX="520.0" layoutY="64.0" prefHeight="25.0" prefWidth="55.0" text="Log in">
+            <font>
+                <Font name="Comic Sans MS" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="userName" layoutX="473.0" layoutY="156.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #666666; -fx-border-width: 0 0 1 0;" />
+
+        <PasswordField fx:id="password" layoutX="473.0" layoutY="237.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #666666; -fx-border-width: 0 0 1 0;" />
+    </children>
+</AnchorPane>

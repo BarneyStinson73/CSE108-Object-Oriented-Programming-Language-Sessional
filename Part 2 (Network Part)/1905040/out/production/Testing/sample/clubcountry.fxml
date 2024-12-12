@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClubcountryController">
+   <children>
+      <AnchorPane layoutX="114.0" layoutY="51.0" prefHeight="309.0" prefWidth="425.0">
+         <children>
+            <Text fill="#2a13d6" layoutX="140.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country Based Search Console" wrappingWidth="196.904296875">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <TextField fx:id="coutryplayer" layoutX="188.0" layoutY="96.0" />
+            <Text fill="#55538f" layoutX="87.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Country" />
+            <Button fx:id="searchbyclubandcountry" layoutX="182.0" layoutY="164.0" mnemonicParsing="false" onAction="#searchByClubandCountry" text="Let's go!" />
+            <Button fx:id="previousfromclubcountrybox" layoutX="149.0" layoutY="212.0" mnemonicParsing="false" onAction="#previousFromClubCountry" text="Back to the previous page" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
